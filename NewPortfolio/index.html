@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <title>Can Akturk | Web Development & Programming | FrontEnd</title>
+<link rel = "icon" href = 
+"titlLogo.png" 
+        type = "image/x-icon">
 <meta name="description" content="Can Akturk Meticulous web developer with over 2 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach."
   />
 <meta name="keywords" content="programming, web development, javascript, html, web design, php, frontEnd developer, react developer, react, redux, bootstrap, tailwind, css"
@@ -18,35 +21,28 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" integrity="sha512-xnP2tOaCJnzp2d2IqKFcxuOiVCbuessxM6wuiolT9eeEJCyy0Vhcwa4zQvdrZNVqlqaxXhHqsSV1Ww7T2jSCUQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-h1,h2,h3,h4,h5,h6,p{
-  font-weight: bold;
-  font-size: medium;
-  font-family: 'Roboto', sans-serif;
-}
-h1{
-  color: #44D62C;
-}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-<body class="w3-black">
+  body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+  .w3-row-padding img {margin-bottom: 12px}
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {width: 120px;background: #222;}
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {margin-left: 120px}
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+  </style>
+<body class="w3-black" >
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="AKTURK.svg" style="width:100%">
+  <img src="grey.jpg" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -62,6 +58,10 @@ h1{
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
+  </a>
+  <a href="#draws" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="material-icons  w3-xxlarge">attachment</i>
+    <p>Draws</p>
   </a>
 </nav>
 
@@ -81,37 +81,55 @@ h1{
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Can Akturk</h1>
     <p>FrontEnd developer and Javascript developer</p>
-    <img src="AKTURK.svg" alt="boy" class="w3-image" width="992" height="1108">
+    <img src="islenmis.PNG" alt="boy" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">About Me</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Hello there.
-       I'm Can Akturk.
-        I have been fascinated by technology and science since my childhood.
-         As my inspiration from that age, I showed interest in frontEnd technologies and learned software. 
-         I am interested in web development and I continue to improve myself. Meticulous web developer with over 2 years of front end experience and passion for responsive website design and a firm believer in the mobile-first approach.
+    <p class="w3-wide w3-text-light-grey">
+      Meticulous web developer with over 3 years of front end
+      experience and passion for responsive website design and a
+      firm believer in the mobile-first approach. Michigan Universty
+      certified. Implemented new responsive website approach.
     </p>
-    <h3 class="w3-padding-16 w3-text-light-grey text-center">My Skills</h3>
-    <p class="w3-wide">Creating web and mobile applications </p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:92%"></div>
+    <h3 class="w3-padding-16 w3-text-light-grey rounded-md-grey text-left">My Skills</h3>
+    <p class="w3-wide w3-text-light-grey">Creating web and mobile applications </p>
+    <div class="w3-white rounded-md">
+      <div class="w3-dark-grey rounded-md " style="height:28px;width:92%"></div>
     </div>
-    <p class="w3-wide">Improving website,optimizing</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:87%"></div>
+    <p class="w3-wide w3-text-light-grey">Improving website,optimizing</p>
+    <div class="w3-white rounded-md">
+      <div class="w3-dark-grey rounded-md" style="height:28px;width:87%"></div>
     </div>
-    <p class="w3-wide">Implementation of apps and landing pages from concept through deployment </p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    <p class="w3-wide w3-text-light-grey">Implementation of apps and landing pages from concept through deployment </p>
+    <div class="w3-white rounded-md">
+      <div class="w3-dark-grey rounded-md" style="height:28px;width:85%"></div>
     </div><br>
 
-    
-    <table class="table table-dark table-hover">
-      <thead>
-        <tr>
+    <div class="w3-row w3-center rounded-md w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5+</span><br>
+        Certification
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">17+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2+</span><br>
+        Graduation
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3+</span><br>
+        Application
+      </div>
+    </div>
+
+    <table class="table table-dark rounded-md table-hover">
+      <thead class="rounded-md">
+        <tr class="rounded-md">
           <th scope="col">#</th>
           <th scope="col">Name of Certification</th>
           <th scope="col">Organization</th>
@@ -119,183 +137,254 @@ h1{
   
         </tr>
       </thead>
-      <tbody> 
+      <tbody class="rounded-md"> 
         <tr>
           <th scope="row">1</th>
           <td> <a href="https://www.coursera.org/account/accomplishments/certificate/TVKGYYH3GAR5" target="_blank" rel="noopener noreferrer">HTML </a> </td>
           <td>University of Michigan</td>
-          <td>2021 February</td>
+          <td>2021 Feb</td>
         </tr>
         <tr>
           <th scope="row">2</th>
           <td><a href="https://www.coursera.org/account/accomplishments/certificate/AEUZC83HDHLD" target="_blank" rel="noopener noreferrer">CSS</a> </td>
           <td>University of Michigan</td>
-          <td>2021 March</td>
+          <td>2021 Mar</td>
         </tr>
         <tr>
           <th scope="row">3</th>
           <td> <a href="https://www.coursera.org/account/accomplishments/certificate/8BG7DWUS2S2E" target="_blank" rel="noopener noreferrer">Javascript</a> </td>
           <td>University of Michigan</td>
-          <td>2021 June</td>
+          <td>2021 Jun</td>
         </tr>
         <tr>
           <th scope="row">4</th>
           <td> <a href="https://www.coursera.org/account/accomplishments/certificate/UGVDU5JFNVRF" target="_blank" rel="noopener noreferrer">Responsive Design</a></td>
           <td>University of Michigan</td>
-          <td>2021 June</td>
+          <td>2021 Jun</td>
         </tr>
         <tr>
           <th scope="row">5</th>
           <td><a href="https://www.coursera.org/account/accomplishments/certificate/8FRAQETPHDUW" target="_blank" rel="noopener noreferrer">PHP</a></td>
           <td>University of Michigan</td>
-          <td>2021 July</td>  
+          <td>2021 Jul</td>  
+        </tr>
+        <tr class="rounded-md">
+          <th class="rounded-md" scope="row">6</th>
+          <td><a href="https://www.coursera.org/account/accomplishments/certificate/AZZU9QMGA9GB" target="_blank" rel="noopener noreferrer">SQL</a></td>
+          <td>University of Michigan</td>
+          <td>2021 Jul</td>  
         </tr>
         
       </tbody>
     </table>
     
-    <h3 class="w3-padding-16 w3-text-light-grey text-center">Education</h3>
-    <div class="w3-row-padding" style="margin:0 -16px" >
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">
+    
+    <h3 class="w3-padding-16 w3-text-light-grey text-left">Education</h3>
+    <div class="w3-row-padding rounded-md" style="margin:0 -16px" >
+      <div class="w3-half rounded-md w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center rounded-md w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge rounded-md w3-padding-32">
             Graduation</li>
-          <li class="w3-padding-16">Afyon Kocatepe Universty Business</li>
+          <li class="w3-padding-16">Afyon Kocatepe, Universty Business</li>
           <li class="w3-padding-16">Turkey, Afyonkarahisar</li>
           <li class="w3-padding-16">Graduation: 2019</li>
-          <li class="w3-padding-16">
-            <h2>Relevant Coursework: Project Management, 
-              Strategic Management, Strategy, Management Consulting.
-             </h2>
+          <li class="w3-padding-16 rounded-md">
+            <h4>Relevant Coursework: Project Management, 
+              Strategic Management, Strategy, Management. 
+             </h4>
           </li>
         </ul>
       </div>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Graduation</li>
-          <li class="w3-padding-16">Anadolu University Management Information Systems</li>
+      <div class="w3-half rounded-md">
+        <ul class="w3-ul w3-white rounded-md w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey rounded-md w3-xlarge w3-padding-32">Graduation</li>
+          <li class="w3-padding-16">Anadolu University, Management Information Systems</li>
           <li class="w3-padding-16">Turkey, Eskisehir</li>
           <li class="w3-padding-16">Graduation:2021</li>
-          <li class="w3-padding-16">
-            <h2>Relevant Coursework: Information system, 
-              Information, Data, E - Business, Database</h2>
+          <li class="w3-padding-16 rounded-md">
+            <h4>Relevant Coursework: Information system, 
+              Information, Data, E - Business, Database.</h4>
           </li>
         </ul>
       </div>
     <!-- End Grid/Pricing tables -->
     </div>
     
-    <h3 class="w3-padding-16 w3-text-light-grey text-center" id="projects">Projects</h3>
+    <h3 class="w3-padding-16 w3-text-light-grey text-left" id="projects">Projects</h3>
+
  <!-- component -->
-<div class="container mx-auto p-8">
-  <div class="flex flex-row flex-wrap -mx-2">       
-    <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
-      <div class="relative bg-white rounded border">
-        <picture class="block bg-gray-200 border-b">
-          <img class="block" src="Screenshot 2021-07-14 001439.png" alt="Card 1">
-        </picture>
-        <div class="p-4">
-          <h3 class="text-lg font-bold">
-            <a class="" href="https://github.com/twichorg/covid19application" title="Card 1">
-              Covid Application
-            </a>
-          </h3>
-          <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">Features</time>
-          <p>
-            Simple Graphic Design.
-            Real-time API calls with Backend features.
-            Styled with Material-UI.
-          </p>
-          <button type="button" class="btn btn-light"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6820818231134171136/" target="_blank" rel="noopener noreferrer">Show</a></button>
+<div class="min-h-screen bg-gray-100 rounded-md from-red-300 to-yellow-200 flex justify-center items-center py-20">
+  <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-1 md:space-y-0">
+    <div class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+      <h3 class="mb-3 text-xl font-bold text-indigo-600">E-Commerce</h3>
+      <div class="relative">
+        <img class="w-full rounded-xl" src="Screenshot 2021-07-14 000232.png" alt="Colors" />
+        <p class="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg"><a href="https://github.com/twichorg/commerce-app" target="_blank" rel="noopener noreferrer">Source</a> </p>
+      </div>
+      <h1 class="mt-4 text-gray-800 text-3xl font-bold cursor-pointer">Application</h1>
+      <div class="my-4">
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </span>
+          <p>Progressive</p>
         </div>
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </span>
+          <p>Redux,Router,Hooks</p>
+        </div>
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </span>
+          <p>ReactJs
+          </p>
+        </div>
+        <button class="mt-4 text-xl w-full text-white bg-yellow-400 py-1.5 rounded-xl shadow-lg"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6732661318387691520/" target="_blank" rel="noopener noreferrer">Show</a> </button>
       </div>
     </div>
-                    
-    <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
-      <div class="relative bg-white rounded border">
-        <picture class="block bg-gray-200 border-b">
-          <img class="block" src="Screenshot 2021-07-14 000232.png" alt="Card 2">
-        </picture>
-        <div class="p-4">
-          <h3 class="text-lg font-bold">
-            <a class="" href="https://github.com/twichorg/commerce-app" title="Card 2">
-              Commercial Application
-            </a>
-          </h3>
-          <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">Features</time>
-          <p>
-            Pure and Simple Design.
-            Powered by React and Redux.
-            Responsive Design. Redux.
-          </p>
-          <button type="button" class="btn btn-light"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6732661318387691520/" target="_blank" rel="noopener noreferrer">Show</a></button>
+    <div class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+      <h3 class="mb-3 text-xl font-bold text-indigo-600">CovidTracker</h3>
+      <div class="relative">
+        <img class="w-full rounded-xl" src="Screenshot 2021-07-14 001439.png" alt="Colors" />
+        <p class="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg"><a href="https://github.com/twichorg/covid19application" target="_blank" rel="noopener noreferrer">Source</a></p>
+      </div>
+      <h1 class="mt-4 text-gray-800 text-3xl font-bold cursor-pointer">Application</h1>
+      <div class="my-4">
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </span>
+          <p>Finished</p>
         </div>
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </span>
+          <p>Redux,Router,Material-UI</p>
+        </div>
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </span>
+          <p>ReactJs</p>
+        </div>
+        <button class="mt-4 text-xl w-full text-white bg-yellow-400 py-1.5 rounded-xl shadow-lg"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6820818231134171136/" target="_blank" rel="noopener noreferrer">Show</a> </button>
       </div>
     </div>
-                    
-    <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
-      <div class="relative bg-white rounded border">
-        <picture class="block bg-gray-200 border-b">
-          <img class="block" src="Screenshot 2021-07-14 003443.png" alt="Card 3">
-        </picture>
-        <div class="p-4">
-          <h3 class="text-lg font-bold">
-            <a class="" href="https://github.com/twichorg/MyPortfolioWebSite" title="Card 3">
-              Portfolio Application
-            </a>
-          </h3>
-          <time class="block mb-2 text-sm text-gray-600" >Features</time>
-          <p>
-            React,Simple Graphic Design.
-            Powered by React and Redux.
-            Responsive Design.
-          </p>
-          <button type="button" class="btn btn-light"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6820827100254228480/" target="_blank" rel="noopener noreferrer">Show</a></button>
+    <div class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+      <h3 class="mb-3 text-xl font-bold text-indigo-600">Portfolio</h3>
+      <div class="relative">
+        <img class="w-full rounded-xl" src="Screenshot 2021-07-14 003443.png" alt="Colors" />
+        <p class="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg"><a href="https://github.com/twichorg/MyPortfolioWebSite" target="_blank" rel="noopener noreferrer">Source</a> </p>
+      </div>
+      <h1 class="mt-4 text-gray-800 text-3xl font-bold cursor-pointer">Application</h1>
+      <div class="my-4">
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </span>
+          <p>Finished</p>
         </div>
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </span>
+          <p>Redux,Style Component</p>
+        </div>
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </span>
+          <p>ReactJs</p>
+        </div>
+        <button class="mt-4 text-xl w-full text-white bg-yellow-400 py-1.5 rounded-xl shadow-lg"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6820827100254228480/" target="_blank" rel="noopener noreferrer">Show</a> </button>
       </div>
     </div>
+  </div>
 </div>
 
-<button class="w3-button w3-light-grey w3-padding-large w3-section">
+
+<button class="w3-button w3-light-grey rounded-md w3-padding-large w3-section">
   <i class="fa fa-download"></i> <a href="https://github.com/twichorg"> All Projects</a> 
 </button>
 
-<!-- Contact Section -->
-<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-  <h2 class="w3-text-light-grey ">Contact Me</h2>
-  <hr style="width:200px" class="w3-opacity">
+<h3 class="w3-padding-16 w3-text-light-grey text-left" id="draws">Draws</h3>
 
-  <div class="w3-section">
-    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Istanbul, Turkey</p>
-   <a href="https://www.instagram.com/akturk_c/" target="_blank" rel="noopener noreferrer"><p><i class="fa fa-instagram fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></p></a>
-  <a href="https://twitter.com/twichorg26" target="_blank" rel="noopener noreferrer"> <p><i class="fa fa-twitter fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></p> </a>
-  <a href="https://www.linkedin.com/in/can-akt%C3%BCrk-28bb77188/" target="_blank" rel="noopener noreferrer"><p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></p> </a>  
-  <a href="mailto:canaycan98@gmail.com"><p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> </p></a>  
-  </div><br>
-<!-- END PAGE CONTENT -->
-</div>
+<!-- component -->
+<section class="text-blueGray-100 rounded-md bg-white mt-20">
+  <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
+      <div class="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
+          <h1 class="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font"> Adobe illustrator </h1>
+          <p class="mb-8 text-base leading-relaxed text-left text-blueGray-600 "> Design and drawing belong to me. </p>
+          <div class="flex flex-col justify-center lg:flex-row">
+              <button class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-yellow-300 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> <a href="Artwork2.jpg" download="w3logo">Download</a>  </button>
+              </p>
+          </div>
+      </div>
+      <div class="w-full lg:w-1/3 lg:max-w-lg md:w-1/2">
+          <img class="object-cover object-center rounded-lg " alt="hero" src="Artwork2.jpg">
+      </div>
   </div>
-   <!-- Footer Start -->
-   <footer class="bg-black py-5">
+</section>
+
+<section class="text-blueGray-100 rounded-md bg-white mt-20">
+  <div class="container flex flex-col items-center px-5 py-16 mx-auto  md:flex-row lg:px-28">
+      <div class="flex flex-col items-start w-full pt-0 mb-16 text-left  lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:mb-0">
+      <h1 class="mb-8 text-2xl font-black tracking-tighter text-black  md:text-5xl title-font"> Adobe illustrator</h1>
+      <p class="mb-8 text-base leading-relaxed text-left text-blueGray-600"> Design and drawing belong to me. </p>
+      <div class="flex flex-col w-full gap-2 md:justify-start md:flex-row">
+          <button class="flex items-center px-6 py-3 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-yellow-300 rounded-lg  hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> <a href="Artwork.jpg" download="w3logo">Download</a> </button>
+      </div>
+      <p class="w-full mt-2 mb-8 text-sm text-left text-blueGray-600">  </p>
+      </div>
+      <div class="w-full lg:w-5/6 lg:max-w-lg md:w-1/2">
+      <img class="object-cover object-center rounded-lg" alt="hero" src="Artwork.jpg">
+      </div>
+  </div>
+</section>
+
+  <footer id="contact" class="w3-container w3-padding-545 w3-black-grey w3-center w3-opacity  w3-xxlarge" style="margin:-35px">
     <div class="container">
       <div class="row align-items-center pb-5"> 
       </div>
       <div class="row align-items-center border-top pt-5">
-        <div class="col text-center">
-          <span class="font-alt font-w-600 letter-spacing-1 text-gray-dark text-small text-uppercase">&copy; 2021 CAN AKTURK. All rights reserved.</span>
-        </div>
-        
       </div>
-      
-    </div>
-   
-  </footer>
- 
+    </div> <br>
+    <a href="mailto:canaycan98@gmail.com"><i class="fa fa-envelope  w3-text-white w3-xxlarge w3-margin-right"></i></a>  
+   <a href="https://www.linkedin.com/in/can-akt%C3%BCrk-28bb77188/" target="_blank" rel="noopener noreferrer"> <i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></a>
+   <a href="https://github.com/twichorg" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></a> 
+  <a href="https://www.instagram.com/akturk_c/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram  w3-text-white w3-xxlarge w3-margin-right"></i></a>  
+   <a href="https://twitter.com/twichorg26" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter  w3-text-white w3-xxlarge w3-margin-right"></i></a> 
 
+
+  <!-- End footer -->
+  <p class="w3-medium w3-text-light-grey">&copy; 2021 CAN AKTURK. All rights reserved. </p>
+</footer>
 
    <!-- Top The BUtton -->
-   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up "></i></button>
    <style>
      #myBtn {
  display: none; /* Hidden by default */
@@ -338,7 +427,6 @@ h1{
  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
  }
    </script>
-  </footer>
 
 </body>
 </html>
